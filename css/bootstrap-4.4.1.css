@@ -4705,6 +4705,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
   color: #fff;
+		border-bottom: 2px solid #fff;
 }
 
 .navbar-dark .navbar-toggler {
