@@ -7,28 +7,48 @@
     <title>Gallery | Auklesh Roy</title>
 	  
     <link href="/css/bootstrap-4.4.1.css" rel="stylesheet">
-	  
 	<script src="https://kit.fontawesome.com/5e52f5e712.js"></script>
-	  
-	<script src="/js/jquery-3.4.1.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap-4.4.1.js"></script>
-	  
-	  	<script>
-            $(document).ready(function() {
-                $("#header").load("/header.txt");
-                $("#footer").load("/footer.txt");
-            });
-        </script>
 
 	  
   </head>
 	
 	
-<body style="padding-top: 75px;">
+<body style="padding-top: 65px;">
 	  
-	<!-- :::::: NAV BAR ::::: -->
-	<div id="header"></div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="height: 60px">
+	<div class="container">
+		  <a class="navbar-brand" href="https://auklesh.github.io"><h3>Auklesh Roy</h3></a>
+	
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+  	</button>
+	
+		 <div class="collapse navbar-collapse" id="navbarText">
+			 
+			<ul class="navbar-nav mr-auto">
+				  <li class="nav-item">
+					<a class="nav-link" href="https://auklesh.github.io/Tableau">Tableau</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="https://auklesh.github.io/D3.js">D3.js</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="https://auklesh.github.io/R">R</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="https://auklesh.github.io/Python">Python</a>
+				  </li>
+			</ul>
+
+			<span class="navbar-text">
+				<a href="mailto:auklesh.roy@outlook.com"><i class="fas fa-envelope fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+				<a href="https://www.linkedin.com/in/auklesh/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+				<a href="https://twitter.com/auklesh/" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+			</span>
+			 
+		  </div>
+	</div>
+</nav>
 	  
 <div class="container">
 	  
@@ -53,16 +73,19 @@
 			
 	</div>
 	
-
-	
-
-	
-
-	
-	<!-- :::::: FOOTER ::::: -->
-
-	<div id="footer"></div>
+<div class="container">
+	<nav class="navbar navbar-light bg-light">
+		<a class="navbar-text" href="mailto:auklesh.roy@outlook.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;auklesh.roy@outlook.com</a>
+		  <a class="navbar-text" href="https://www.linkedin.com/in/auklesh/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i>&nbsp;linkedin.com/in/auklesh/</a>
+		  <a class="navbar-text" href="https://twitter.com/auklesh" target="_blank"><i class="fab fa-twitter fa-lg"></i>&nbsp;twitter.com/auklesh</a>
+	</nav>
+</div>
 	
 	
   </body>
+	
+	<script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap-4.4.1.js"></script>
+	
 </html>
